@@ -1,0 +1,26 @@
+{
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "stationId": 1,
+      "chargerType": "Type2",
+      "date": "2024-10-15",
+      "time": "14:00",
+      "duration": 60,
+      "status": "Confirmed",
+      "price": 5
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "stationId": 2,
+      "chargerType": "CCS2",
+      "date": "2024-10-16",
+      "time": "10:00",
+      "duration": 30,
+      "status": "Completed",
+      "price": 6
+    }
+  ]
+}

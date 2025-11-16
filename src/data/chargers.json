@@ -1,0 +1,61 @@
+{
+  "chargers": [
+    {
+      "id": 1,
+      "name": "Central Bangkok Station",
+      "location": "Bangkok, Thailand",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "address": "123 Sukhumvit Road, Bangkok",
+      "chargers": [
+        { "type": "Type2", "power": "22kW", "status": "Available", "price": 5 },
+        { "type": "CCS2", "power": "50kW", "status": "Occupied", "price": 8 },
+        { "type": "CHAdeMO", "power": "150kW", "status": "Available", "price": 12 }
+      ],
+      "parking": true,
+      "hours": "24/7",
+      "reviews": [
+        { "user": "User1", "rating": 5, "comment": "Fast and reliable!" },
+        { "user": "User2", "rating": 4, "comment": "Good location, clean facility." }
+      ],
+      "images": ["station1.jpg", "station1_2.jpg"]
+    },
+    {
+      "id": 2,
+      "name": "Chiang Mai Mall Station",
+      "location": "Chiang Mai, Thailand",
+      "latitude": 18.7883,
+      "longitude": 98.9853,
+      "address": "456 Nimman Road, Chiang Mai",
+      "chargers": [
+        { "type": "Type2", "power": "7kW", "status": "Available", "price": 4 },
+        { "type": "CCS2", "power": "22kW", "status": "Offline", "price": 6 }
+      ],
+      "parking": true,
+      "hours": "08:00-22:00",
+      "reviews": [
+        { "user": "User3", "rating": 4, "comment": "Convenient for shopping." }
+      ],
+      "images": ["station2.jpg"]
+    },
+    {
+      "id": 3,
+      "name": "Phuket Beach Station",
+      "location": "Phuket, Thailand",
+      "latitude": 7.8804,
+      "longitude": 98.3923,
+      "address": "789 Patong Beach, Phuket",
+      "chargers": [
+        { "type": "Type2", "power": "22kW", "status": "Available", "price": 6 },
+        { "type": "CHAdeMO", "power": "50kW", "status": "Available", "price": 10 }
+      ],
+      "parking": false,
+      "hours": "06:00-24:00",
+      "reviews": [
+        { "user": "User4", "rating": 5, "comment": "Great view while charging!" },
+        { "user": "User5", "rating": 3, "comment": "No parking, had to wait." }
+      ],
+      "images": ["station3.jpg", "station3_2.jpg"]
+    }
+  ]
+}
